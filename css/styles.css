@@ -30,11 +30,11 @@ body {
    color: var(--navyblue);
 }
 
-.link{
+.link {
    text-decoration: none;
 }
 
-.link:link{
+.link:link {
    text-decoration: none;
 }
 
@@ -55,10 +55,7 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:active {
-   color: var(--ocean);
-}
-
+.nav-link:active,
 .nav-link:focus {
    color: var(--ocean);
 }
@@ -79,7 +76,8 @@ address {
 }
 
 .address-link:hover,
-.address-link:active {
+.address-link:active,
+.address-link:focus {
    color: var(--ocean);
 }
 
