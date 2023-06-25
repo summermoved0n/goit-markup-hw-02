@@ -26,33 +26,20 @@ body {
    line-height: 1.17;
 }
 
-.logo:link {
-   text-decoration: none;
-}
-
 .logo-text {
    color: var(--navyblue);
 }
 
+.link{
+   text-decoration: none;
+}
+
+.link:link{
+   text-decoration: none;
+}
+
 .list {
    list-style: none;
-}
-
-.link {
-   color: var(--navyblue);
-   font-size: 16px;
-   line-height: 24px;
-   letter-spacing: 0.32px;
-   text-decoration: none;
-}
-
-.link:link {
-   text-decoration: none;
-}
-
-.link:hover,
-.link:active {
-   color: var(--ocean);
 }
 
 .nav-link {
@@ -72,6 +59,10 @@ body {
    color: var(--ocean);
 }
 
+.nav-link:focus {
+   color: var(--ocean);
+}
+
 address {
    font-style: normal;
 }
@@ -88,7 +79,7 @@ address {
 }
 
 .address-link:hover,
-.address:active {
+.address-link:active {
    color: var(--ocean);
 }
 
@@ -220,10 +211,12 @@ footer {
 }
 
 .buttons:focus {
+   background-color: var(--ocean);
    color: var(--white);
 }
 
 .main-portfolio {
+   font-weight: 500;
    color: var(--navyblue);
    font-size: 20px;
    line-height: 24px;
@@ -231,6 +224,7 @@ footer {
 }
 
 .text-portfolio {
+   color: var(--slate);
    font-size: 16px;
    line-height: 24px;
    letter-spacing: 0.32px;
