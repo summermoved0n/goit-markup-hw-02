@@ -38,6 +38,23 @@ body {
    list-style: none;
 }
 
+.link {
+   color: var(--navyblue);
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.32px;
+   text-decoration: none;
+}
+
+.link:link {
+   text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+   color: var(--ocean);
+}
+
 .nav-link {
    color: var(--navyblue);
    font-size: 16px;
@@ -177,13 +194,10 @@ footer {
    color: var(--cloud);
 }
 
-.logo-footer:link {
-   text-decoration: none;
-}
-
 /* Page of portfolio */
 
 .buttons {
+   font-family: 'Roboto', sans-serif;
    border: 1px solid var(--cornflower, #e7e9fc);
    background: var(--cloud, #f4f4fd);
    color: var(--iris, #4d5ae5);
@@ -203,6 +217,10 @@ footer {
    font-size: 16px;
    line-height: 24px;
    letter-spacing: 0.64px;
+}
+
+.buttons:focus {
+   color: var(--white);
 }
 
 .main-portfolio {
